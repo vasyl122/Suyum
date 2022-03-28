@@ -791,6 +791,10 @@ header{
 .product-item{
     margin: 1rem 0;
 }
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 .product-img{
     background: var(--ghost-white);
     padding: 3rem 0;
@@ -991,9 +995,9 @@ footer > .container{
         margin-left: 0;
     }
 }
-
-@media screen and (min-width: 1200px){
-    .navbar{
+*/
+/* @media screen and (min-width: 1200px){ */
+    /* .navbar{
         padding: 1.5rem 14rem!important;
     }
     .cart-container{
@@ -1005,7 +1009,7 @@ footer > .container{
     .product-list{
         grid-template-columns: repeat(4, 1fr);
     }
-} */
+}  */
 
 
   
